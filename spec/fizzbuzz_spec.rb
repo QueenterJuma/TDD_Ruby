@@ -1,4 +1,4 @@
-require_relative '../solver';
+require_relative '../solver'
 
 RSpec.describe 'fizzbuzz method of the solver class' do
   def fizzbuzz(number)
@@ -23,7 +23,6 @@ RSpec.describe 'fizzbuzz method of the solver class' do
     expect(fizzbuzz(30)).to eq('fizzbuzz')
     expect(fizzbuzz(45)).to eq('fizzbuzz')
   end
-
 
   it 'Should return the number as a string for other numbers' do
     expect(fizzbuzz(1)).to eq('1')

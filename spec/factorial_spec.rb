@@ -1,4 +1,4 @@
-require_relative '../solver';
+require_relative '../solver'
 
 RSpec.describe 'factorial method of the solver class' do
   def factorial(number)
